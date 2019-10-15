@@ -1,0 +1,7 @@
+.mouse_move {
+    height: 40px;
+    width: 40px;
+    border-radius: 30px;
+    border: 1px solid white;
+    position: absolute;
+}

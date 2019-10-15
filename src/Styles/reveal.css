@@ -1,0 +1,46 @@
+
+*, *:before, *:after {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  font-size: 62.5%;
+  height: 100%;
+  overflow: hidden;
+}
+.scene {
+  position: relative;
+  height: 100%;
+  background: #1d1f20;
+  padding: 20rem;
+  text-align: center;
+}
+h1 {
+  position: relative;
+  font-size: 8rem;
+  text-transform: uppercase;
+  font-family: test;
+  color: #fff;
+  z-index: 10;
+}
+.magic {
+  z-index: 5;
+  position: absolute;
+  top: calc(50% - 10rem);
+  left: calc(50% - 10rem);
+  width: 20rem;
+  height: 20rem;
+  background: url('./stars.jpg') 50% 50% no-repeat fixed;
+  background-size: cover;
+  border-radius: 50%;
+}
+.check-out {
+  z-index: 100;
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 2rem;
+  color: #fff;
+  font-family: test;
+}
